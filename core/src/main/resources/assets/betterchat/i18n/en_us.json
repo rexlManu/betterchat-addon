@@ -1,0 +1,19 @@
+{
+  "betterchat": {
+    "settings": {
+      "name": "BetterChat Addon",
+      "enabled": {
+        "name": "Enabled"
+      },
+      "keepHistory": {
+        "name": "Keep Chat History"
+      },
+      "hideChatSignature": {
+        "name": "Hide Signature Symbols"
+      },
+      "hideChatSignatureNotification": {
+        "name": "Hide Notification and Prompts related to Signature"
+      }
+    }
+  }
+}
