@@ -36,7 +36,7 @@ plugins {
     id("java-library")
 }
 
-group = "org.example"
+group = "de.rexlmanu.betterchat"
 version = "1.0.0"
 
 plugins.apply("net.labymod.gradle.addon")
@@ -60,11 +60,11 @@ subprojects {
 
 addon {
     addonInfo {
-        namespace("example")
-        displayName("Example Addon")
-        author("Example Author")
-        description("An Example Description!")
-        version(System.getenv().getOrDefault("VERSION", "0.0.0"))
+        namespace("betterchat")
+        displayName("BetterChat Addon")
+        author("rexlManu")
+        description("Prevent chat history clearing, hide message signature and annoying warnings on join.")
+        version(System.getenv().getOrDefault("VERSION", project.version.toString()))
 
         //if you want to add dependencies, go to the build.gradle.kts in the core or api module
         //add take a look in the dependencies block
