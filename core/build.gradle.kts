@@ -2,6 +2,7 @@ version = "0.1.0"
 
 plugins {
     id("java-library")
+    id("io.freefair.lombok") version "6.6-rc1"
 }
 
 repositories {
